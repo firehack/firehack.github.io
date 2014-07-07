@@ -1,21 +1,44 @@
 .one{
 	background: url("../img/bg1.png");
 	height: 750px;
-	padding: 60px 100px;
+	padding: 60px 150px;
 	text-align: center;
+	font-size: 20px;
+}
+.one h1{
+	font-size: 42px;
 }
 .one .center{
-	/*position: absolute;*/
-	/*top: 0;*/
-	/*margin-top: 12%;*/
+	margin-top: 5%;
 	color: white;
 	width: 100%;
+}
+.time{
+	font-size: 26px;
+}
+.button{
+	width: 80%;
+	text-align: center;
+	margin: 5% 10%;
+	background: #009eaf;
+	padding: 10px;
+	color: white;
 }
 .two{
 	width: 100%;
 	height: 400px;
 	text-align: center;
 	padding: 60px 100px;
+	color: #009eaf;
+}
+.intel-one{
+	font-weight: bold;
+	font-size: 28px;
+}
+.intel-two{
+	font-weight: bold;
+	font-size: 22px;
+	margin: 10px;
 }
 .two img{
 	width: 200px;
@@ -28,19 +51,46 @@
 	color: white;
 	/*position: relative;*/
 }
+.partners{
+	margin-top: 5%;
+}
+.main-color{
+	color: white;
+	font-size: 36px;
+	font-weight: bold;
+}
 .three .partners li{
-	width: 25%;
-	height: 300px;
-	margin-right: 2%;
+	width: 28%;
+	height: 260px;
+	margin-right: 5%;
 	/*position: absolute;*/
 	/*top: 0;*/
 	float: left;
 }
+.partition{
+	width: 100%;
+	height: 220px;
+	border-bottom: 4px dotted;
+}
 .partners img{
-	width: 250px;
-	height: 200px;
+	width: 225px;
+	height: 150px;
+}
+.partners .image-small{
+	height: 120px;
 }
 .four{
+	background: url('../img/map.png');
 	padding: 60px 100px;
 	text-align: center;
+}
+.four img{
+	width: 90px;
+}
+.map-content{
+	width: 40%;
+	margin-left: 30%;
+	background: rgba(241, 240, 240, 0.4);
+	color: #009eaf;
+	padding: 15px;
 }
