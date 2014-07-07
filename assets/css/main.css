@@ -1,0 +1,46 @@
+.one{
+	background: url("../img/bg1.png");
+	height: 750px;
+	padding: 60px 100px;
+	text-align: center;
+}
+.one .center{
+	/*position: absolute;*/
+	/*top: 0;*/
+	/*margin-top: 12%;*/
+	color: white;
+	width: 100%;
+}
+.two{
+	width: 100%;
+	height: 400px;
+	text-align: center;
+	padding: 60px 100px;
+}
+.two img{
+	width: 200px;
+}
+.three{
+	height: 750px;
+	background: url("../img/bg2.jpg");
+	padding: 60px 100px;
+	text-align: center;
+	color: white;
+	/*position: relative;*/
+}
+.three .partners li{
+	width: 25%;
+	height: 300px;
+	margin-right: 2%;
+	/*position: absolute;*/
+	/*top: 0;*/
+	float: left;
+}
+.partners img{
+	width: 250px;
+	height: 200px;
+}
+.four{
+	padding: 60px 100px;
+	text-align: center;
+}
