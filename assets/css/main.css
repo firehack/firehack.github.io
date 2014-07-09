@@ -1,3 +1,6 @@
+/*     Part One    */
+
+
 .one{
 	background: url("../img/bg1.png");
 	height: 750px;
@@ -24,6 +27,12 @@
 	padding: 10px;
 	color: white;
 }
+
+
+/*    Part Two    */
+
+
+
 .two{
 	width: 100%;
 	height: 400px;
@@ -43,14 +52,17 @@
 .two img{
 	width: 180px;
 }
+
+
+/*   Part Threee    */
+
+
 .three{
 	height: 670px;
 	background: url("../img/bg2.jpg");
-	/*background: rgb(73, 108, 128);*/
 	padding: 60px 100px;
 	text-align: center;
 	color: white;
-	/*position: relative;*/
 }
 .partners{
 	margin-top: 5%;
@@ -64,8 +76,6 @@
 	width: 28%;
 	height: 260px;
 	margin-right: 5%;
-	/*position: absolute;*/
-	/*top: 0;*/
 	float: left;
 }
 .partition{
@@ -87,6 +97,8 @@
 	height: 95px;
 	width: 175px;
 }
+
+/*    Part Four    */
 .four{
 	background: #328494;
 	/*background: url('../img/four.jpg');*/
@@ -105,38 +117,14 @@
 	margin-top: 6%;
 	width: 100%;
 }
-.seven{
-	/*background: url('../img/map1.png');*/
-	background-image: radial-gradient(circle closest-corner at 50% 50%, rgba(255, 255, 255, 0), #f4f4f4), linear-gradient(#f4f4f4, rgba(255, 255, 255, 0)), url('../img/map1.png');
-	padding: 60px 100px;
-	text-align: center;
-	background-repeat: no-repeat;
-	background-size: 100% 106%;
-	background-position: top;
-	height: 400px;
-}
-.seven h2{
-	color: white;
-	padding: 0 25px 25px;
-}
-.seven img{
-	width: 90px;
-}
-.map-content{
-	width: 40%;
-	margin-left: 30%;
-	background: rgba(148, 95, 95, 0.64);
-	color: white;
-	padding: 15px;
-}
 
 
 
 
-/*  */
+/* Part Five  */
 .five{
 	background: rgb(126, 226, 222);
-	padding: 60px 100px;
+	padding: 40px 100px;
 }
 .agenda {
 	position: relative;
@@ -146,13 +134,17 @@
 	width: 100%;
 	max-width: 610px;
 }
-.agenda h2, .agenda h3{
+.agenda h2{
+	font-size: 36px;
 	color: white;
 	font-weight: bolder;
+	text-align: center;
 }
 .agenda h3{
 	color: rgb(46, 93, 119);
+	font-weight: bolder;
 	margin: 40px 0px;
+	text-align: left;
 }
 line{
 	display: block;
@@ -160,56 +152,54 @@ line{
 }
 moment{
 	display: block;
-position: relative;
-padding-left: 190px;
-padding-bottom: 70px;
+	position: relative;
+	padding-left: 190px;
+	padding-bottom: 70px;
 }
 moment time {
-display: block;
-position: absolute;
-top: 2px;
-left: -45px;
-width: 176px;
-font-size: 18px;
-/*font-family: 'Dosis','Source Sans Pro',sans-serif;*/
-text-align: right;
+	display: block;
+	position: absolute;
+	top: 2px;
+	left: -45px;
+	width: 176px;
+	font-size: 18px;
+	text-align: right;
 }
 moment dot {
-display: block;
-position: absolute;
-top: 8px;
-left: 138px;
-width: 16px;
-height: 16px;
-border-radius: 10px;
-border: 4px solid #44aead;
+	display: block;
+	position: absolute;
+	top: 8px;
+	left: 138px;
+	width: 16px;
+	height: 16px;
+	border-radius: 10px;
+	border: 4px solid #44aead;
 }
 moment tail {
-display: block;
-position: absolute;
-top: 20px;
-left: 144px;
-width: 4px;
-height: calc(100% - 27px);
-background: #44aead;
+	display: block;
+	position: absolute;
+	top: 20px;
+	left: 144px;
+	width: 4px;
+	height: calc(100% - 27px);
+	background: #44aead;
 }
 moment event {
-display: block;
-text-align: left;
+	display: block;
+	text-align: left;
 }
 loud {
-font-size: 30px;
-margin-bottom: 15px;
-text-transform: none;
-line-height: 1.25;
-color: white;
+	font-size: 30px;
+	margin-bottom: 15px;
+	text-transform: none;
+	line-height: 1.25;
+	color: white;
 }
 
 
-/*    */
+/*  Part Six   */
 
 .six{
-	/*background: rgb(124, 35, 103);*/
 	background: url('../img/six.jpg');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -237,3 +227,32 @@ color: white;
 .six img{
 	width: 200px;
 }
+
+
+
+
+/*    Part Seven    */
+.seven{
+	background-image: radial-gradient(circle closest-corner at 50% 50%, rgba(255, 255, 255, 0), #f4f4f4), linear-gradient(#f4f4f4, rgba(255, 255, 255, 0)), url('../img/map1.png');
+	padding: 60px 100px;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: 100% 106%;
+	background-position: top;
+	height: 400px;
+}
+.seven h2{
+	color: white;
+	padding: 0 25px 25px;
+}
+.seven img{
+	width: 90px;
+}
+.map-content{
+	width: 40%;
+	margin-left: 30%;
+	background: rgba(148, 95, 95, 0.64);
+	color: white;
+	padding: 15px;
+}
+
