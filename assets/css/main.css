@@ -38,7 +38,7 @@
 .intel-two{
 	font-weight: bold;
 	font-size: 22px;
-	margin: 10px;
+	margin: 15px;
 }
 .two img{
 	width: 200px;
@@ -74,15 +74,26 @@
 }
 .partners img{
 	width: 225px;
-	height: 150px;
-}
-.partners .image-small{
 	height: 120px;
 }
+.partners .raspi{
+	width: 120px;
+}
+.partners .android{
+	width: 150px;
+}
+.partners .windows{
+	height: 95px;
+	width: 175px;
+}
 .four{
-	background: url('../img/map.png');
+	/*background: url('../img/map1.png');*/
+	background-image: radial-gradient(circle closest-corner at 50% 50%, rgba(255, 255, 255, 0), #f4f4f4), linear-gradient(#f4f4f4, rgba(255, 255, 255, 0)), url('../img/map1.png');
 	padding: 60px 100px;
 	text-align: center;
+	background-repeat: no-repeat;
+	background-size: 100% 106%;
+	background-position: top;
 }
 .four img{
 	width: 90px;
@@ -90,7 +101,7 @@
 .map-content{
 	width: 40%;
 	margin-left: 30%;
-	background: rgba(241, 240, 240, 0.4);
-	color: #009eaf;
+	background: rgba(148, 95, 95, 0.64);
+	color: white;
 	padding: 15px;
 }
