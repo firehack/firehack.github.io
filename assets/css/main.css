@@ -214,12 +214,13 @@ color: white;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	text-align: center;
-	padding: 60px 100px;
-	height: 660px;
+	padding: 0px 100px;
+	height: 580px;
 }
 .six h2{
 	color: white;
 	padding: 25px;
+	margin: 0;
 }
 .six .first, .six .sec{
 	width: 100%;
