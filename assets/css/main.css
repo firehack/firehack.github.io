@@ -219,6 +219,9 @@ loud {
 	height: 155px;
 
 }
+.six .iitb{
+	padding: 0 20%;
+}
 .six .partners-logo img{
 	width: 240px;
 }
@@ -256,5 +259,61 @@ loud {
 	background: rgba(148, 95, 95, 0.64);
 	color: white;
 	padding: 15px;
+}
+
+
+@media all and (max-width: 710px) and (min-width: 320px) {
+	.one,.two,.three,.four,.five,.six,.seven{
+		padding: 10px;
+	}
+	.one{
+		height: 520px;
+	}
+	.one img{
+		width: 50%;
+	}
+	.one .time{
+		font-size: 20px;
+	}
+	.one h1{
+		font-size: 25px;
+	}
+	.one p{
+		font-size: 14px;
+	}
+	.two{
+		height: 320px;
+	}
+	.two p{
+		font-size: 22px;
+	}
+	.two .intel-two{
+		font-size: 18px;
+		font-weight: normal;
+	}
+	.two img{
+		width: 150px;
+	}
+	.five time{
+		font-size: 14px;
+	}
+	.five loud{
+		font-size: 22px;
+	}
+	.three img{
+		width: 100% !important;
+	}
+	.six{
+		height: 460px;
+	}
+	.six h2{
+		font-size: 22px;
+	}
+	.six img{
+		width: 65% !important;
+	}
+	.four{
+		height: 170px;
+	}
 }
 
