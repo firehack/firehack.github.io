@@ -4,7 +4,7 @@
 .one{
 	background: url("../img/bg1.png");
 	height: 750px;
-	padding: 60px 150px;
+	padding: 60px 100px;
 	text-align: center;
 	font-size: 20px;
 }
@@ -37,7 +37,7 @@
 	width: 100%;
 	height: 400px;
 	text-align: center;
-	padding: 60px 100px;
+	padding: 40px 80px;
 	color: #009eaf;
 }
 .intel-one{
@@ -60,7 +60,7 @@
 .three{
 	height: 670px;
 	background: url("../img/bg2.jpg");
-	padding: 60px 100px;
+	padding: 40px 20px;
 	text-align: center;
 	color: white;
 }
@@ -104,8 +104,9 @@
 	/*background: url('../img/four.jpg');*/
 	background-repeat: no-repeat;
 	background-size: 100%;
-	height: 350px;
+	height: 300px;
 	width: 100%;
+	overflow: hidden;
 }
 .four h1{
 	margin: 0;
@@ -114,8 +115,9 @@
 	color: white;
 }
 .four img{
-	margin-top: 6%;
-	width: 100%;
+	margin-top: 5%;
+	width: 90%;
+	margin-left: 5%;
 }
 
 
@@ -234,7 +236,7 @@ loud {
 /*    Part Seven    */
 .seven{
 	background-image: radial-gradient(circle closest-corner at 50% 50%, rgba(255, 255, 255, 0), #f4f4f4), linear-gradient(#f4f4f4, rgba(255, 255, 255, 0)), url('../img/map1.png');
-	padding: 60px 100px;
+	padding: 40px 100px;
 	text-align: center;
 	background-repeat: no-repeat;
 	background-size: 100% 106%;
@@ -249,8 +251,8 @@ loud {
 	width: 90px;
 }
 .map-content{
-	width: 40%;
-	margin-left: 30%;
+	width: 60%;
+	margin-left: 20%;
 	background: rgba(148, 95, 95, 0.64);
 	color: white;
 	padding: 15px;
