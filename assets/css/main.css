@@ -300,6 +300,9 @@ loud {
 	.five loud{
 		font-size: 22px;
 	}
+	.three{
+		height: 500px;
+	}
 	.three img{
 		width: 100% !important;
 	}
