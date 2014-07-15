@@ -3,7 +3,7 @@ $( document ).ready(function() {
 	$(".welcome .center").hover(function(){
 		$('.main-content').css('background-color', 'rgba(0, 0, 0, 1)');
 	},function(){
-		$('.main-content').css('background-color', 'rgba(93, 108, 124, 0.64)');
+		$('.main-content').css('background-color', 'rgba(0, 0, 0, 0.64)');
 	});
 	$('.button').hover(function(){
 		$(' .button').css('background-color', '#009eaf');
