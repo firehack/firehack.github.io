@@ -27,6 +27,7 @@ hr{
 	overflow: scroll;
 	/*background: rgba(93, 108, 124, 0.64);*/
 	background: rgba(0, 0, 0, 0.64);
+	z-index: 11;
 }
 .header{
 	background: rgba(0, 0, 0, 0.8) !important;
