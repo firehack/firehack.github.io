@@ -118,7 +118,7 @@ a.top-apply{
 .welcome .center h1{
 	font-size: 26px;
 }
-.faq-content li{
+.faq-content li, .sponsor-content li{
 	list-style: none;
 }
 .faq-content ul{
@@ -130,21 +130,36 @@ a.top-apply{
 .faq-content p{
 	color: #444;
 }
-.instruction,.why,.faq{display: none;}
+.instruction,.why,.faq, .sponsor{display: none;}
 
-.instruction-content, .faq-content, .why-content{
-	margin: 0px 280px;
+.instruction-content, .faq-content, .why-content, .sponsor-content{
+	margin: 0px 240px;
 	color: rgb(127, 140, 141);;
 	padding: 20px;
 	background: #eee;
 }
-.instruction-content h3, .faq-content h3, .why-content h3{
+.instruction-content h3, .faq-content h3, .why-content h3, .sponsor-content h3{
 	color: #444;
+	padding-bottom: 20px;
 }
-.instruction > h3, .faq > h3, .why > h3{
+.instruction-content li, .faq-content li, .why-content li, .sponsor-content li{
+	line-height: 20px;
+}
+.instruction > h3, .faq > h3, .why > h3, .sponsor > h3 {
 	color:white;
 	text-align:center;
 	margin-bottom:25px;
+}
+.sponsor-content li{
+	text-align: center;
+}
+.sponsor-content h3{
+	color: #9B9595;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.sponsor-content li img{
+	padding: 15px;
 }
 .thanks a{
 	color: #009eaf;
