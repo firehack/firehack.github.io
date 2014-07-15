@@ -1,0 +1,109 @@
+body{
+	background: url('../img/hackathon.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-height: 700px;
+	height: 100%;
+	width: 100%;
+	font-family: 
+}
+body .main-content{
+	width: 100%;
+	min-height:615px;
+	height: 100%;
+	background: rgba(93, 108, 124, 0.64);
+}
+.header{
+	background: rgba(0, 0, 0, 0.8) !important;
+	height: 85px;
+}
+.header a {
+	color: #7f8c8d;
+}
+.head-nav{
+	padding: 10px 35px;
+	max-width: 992px;
+	width: 992px;
+	height: 85px;
+	background: rgba(0, 0, 0, 0.8);
+	color: white;
+	/*font-family: */
+	margin: 0 140px;
+}
+.logo, .main-nav{
+	display: inline-block;
+}
+.logo{
+	width: 200px;
+	float: left;
+	padding: 10px;
+	font-size: 28px;
+	color: #009eaf;
+	font-weight: bolder;
+}
+.main-nav{
+	width: 75%;
+}
+.top-nav{
+	font-family: Candal sans-serif;
+	position: relative;
+	display: inline-block;
+	/*width: 18%;*/
+	color: #7f8c8d;
+	font-size: 14px;
+	float: left;
+	padding: 25px 0px;
+}
+.top-nav .links{
+	padding: 3px 10px;
+	/*text-align: center;*/
+}
+
+
+.welcome{
+	color: white;
+	padding: 60px 100px;
+	text-align: center;
+	font-size: 20px;
+}
+/*.welcome h1{
+	font-size: 42px;
+}*/
+.welcome .center{
+	margin: 5% 25%;
+	color: white;
+	width: 50%;
+	padding: 20px;
+	background: rgba(0, 0, 0, 0.6);
+}
+.time{
+	font-size: 26px;
+}
+.button{
+	width: 80%;
+	text-align: center;
+	margin: 5% 10%;
+	border: 2px solid #009eaf;
+	padding: 10px;
+	font-size: 24px !important;
+	color: white;
+}
+.button a{
+	color: #009eaf;
+}
+.welcome .center h1{
+	font-size: 26px;
+}
+
+.instruction,.why,.faq{display: none;}
+
+.instruction-content, .faq-content, .why-content{
+	margin: 0px 325px;
+	color: rgb(127, 140, 141);;
+	padding: 20px;
+	background: #eee;
+}
+.thanks{
+	text-align: center;
+}

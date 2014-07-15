@@ -39,7 +39,7 @@ a:hover{
 	text-decoration: none;
 }
 li{
-	list-style: none;
+	/*list-style: none;*/
 }
 img{
 	border: 0;
@@ -70,4 +70,16 @@ font: inherit;
 vertical-align: baseline;
 text-rendering: optimizeLegibility;
 -webkit-font-smoothing: antialiased;
+}
+
+
+
+ol {
+display: block;
+/*list-style-type: decimal;*/
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 40px;
 }
