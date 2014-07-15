@@ -7,6 +7,7 @@
 	  <title>FireHack - India's Largest Hardware Hackathon </title>
 	  <link href='http://fonts.googleapis.com/css?family=Adamina' rel='stylesheet' type='text/css'>
 	  <script src="assets/js/jquery-1.11.1.min.js"></script>
+	  <script src="assets/js/main.js"></script>
 	  <!-- Latest compiled and minified CSS -->
 	  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
 	  <link href='http://fonts.googleapis.com/css?family=Candal' rel='stylesheet' type='text/css'>
@@ -54,8 +55,14 @@
 					<li class="top-nav">
 						<a href="#faq" class="links" id="faq">FAQ</a>
 					</li>
+					<li class="top-nav">
+						<a href="#sponsor" class="links" id="sponsor">SPONSOR</a>
+					</li>
+					<li class="top-nav">
+						<a href="http://blog.firehack.co" target="_blank" class="links" id="faq">NEWS</a>
+					</li>
 					<li class="top-nav apply">
-						<a href="http://goo.gl/9azvqc" class="links top-apply">APPLY</a>
+						<a href="http://goo.gl/9azvqc" target="_blank" class="links top-apply">APPLY</a>
 					</li>
 				</div>
 			</div>
@@ -71,7 +78,7 @@
 				</div>
 				<div class="center">
 					<h1>ARE YOU READY TO HACK?</h1>
-					<h1 class="apply button"><a href="http://goo.gl/9azvqc">APPLY TO FIREHACK</a></h1>
+					<h1 class="apply button"><a href="http://goo.gl/9azvqc" target="_blank">APPLY TO FIREHACK</a></h1>
 				</div>
 			</section>
 			<section class="instruction">
@@ -107,7 +114,7 @@
 					<div class="thanks">
 						<p>Thanks for considering FireHack as your launch platform. </p>
 
-						<div class="button"><a href="http://goo.gl/9azvqc">APPLY FOR THE FIREHACK</a></div>
+						<div class="button"><a href="http://goo.gl/9azvqc" target="_blank">APPLY FOR THE FIREHACK</a></div>
 					</div>
 				</div>
 			</section>
@@ -141,7 +148,7 @@
 					</ol>
 					<div class="thanks">
 						<p>Thanks for considering FireHack as your launch platform. </p>
-						<div class="button"><a href="http://goo.gl/9azvqc">APPLY FOR THE FIREHACK</a></div>
+						<div class="button"><a href="http://goo.gl/9azvqc" target="_blank">APPLY FOR THE FIREHACK</a></div>
 					</div>
 				</div>
 			</section>
@@ -198,51 +205,7 @@
 			</section>
 		</div>
 		<script>
-			$(".welcome .center").hover(function(){
-				$('.main-content').css('background-color', 'rgba(0, 0, 0, 1)');
-			},function(){
-				$('.main-content').css('background-color', 'rgba(93, 108, 124, 0.64)');
-			});
-			$('.button').hover(function(){
-				$(' .button').css('background-color', '#009eaf');
-				$(' .button a').css('color', '#fff');
-			},function(){
-				$(' .button').css('background-color', 'transparent');
-				$(' .button a').css('color', '#009eaf');
-			})
-			$('#welcome').click(function(e){
-				e.preventDefault();
-				e.stopPropagation();
-				$('section.instruction').hide();
-				$('section.why').hide();
-				$('section.faq').hide();
-				$('section.welcome').show();
-			});
-			$('#instruction').click(function(e){
-				e.preventDefault();
-				e.stopPropagation();
-				$('section.welcome').hide();
-				$('section.why').hide();
-				$('section.faq').hide();
-				$('section.instruction').show();
-
-			});
-			$('#why').click(function(e){
-				e.preventDefault();
-				e.stopPropagation();
-				$('section.welcome').hide();
-				$('section.instruction').hide();
-				$('section.faq').hide();
-				$('section.why').show();
-			});
-			$('#faq').click(function(e){
-				e.preventDefault();
-				e.stopPropagation();
-				$('section.welcome').hide();
-				$('section.instruction').hide();
-				$('section.why').hide();
-				$('section.faq').show();
-			});
+			
 		</script>
 	</body>
 </html>

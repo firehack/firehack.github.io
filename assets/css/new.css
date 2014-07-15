@@ -12,6 +12,10 @@ body{
 a{
 	color: white;
 }
+a:focus {
+   outline: 0;
+   text-decoration: none;
+}
 hr{
 	border-top: 1px solid #dddddd;
 }
@@ -19,9 +23,9 @@ hr{
 	padding: 100px 0 50px 0;
 	width: 100%;
 	max-height:700px;
-	/*height: 100%;*/
 	overflow-y: scroll;
-	background: rgba(93, 108, 124, 0.64);
+	/*background: rgba(93, 108, 124, 0.64);*/
+	background: rgba(0, 0, 0, 0.64);
 }
 .header{
 	background: rgba(0, 0, 0, 0.8) !important;
@@ -38,7 +42,6 @@ hr{
 	height: 85px;
 	background: rgba(0, 0, 0, 0.8);
 	color: white;
-	/*font-family: */
 	margin: 0 140px;
 }
 .logo, .main-nav{
@@ -56,13 +59,12 @@ hr{
 	color: #009eaf;
 }
 .main-nav{
-	width: 75%;
+	width: 78%;
 }
 .top-nav{
 	font-family: Candal sans-serif;
 	position: relative;
 	display: inline-block;
-	/*width: 18%;*/
 	color: #7f8c8d;
 	font-size: 14px;
 	float: left;
