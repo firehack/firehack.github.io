@@ -319,4 +319,8 @@ loud {
 		height: 170px;
 	}
 }
+.disabled {
+   pointer-events: none;
+   cursor: default;
+}
 

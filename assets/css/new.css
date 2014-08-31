@@ -176,3 +176,7 @@ a.top-apply{
 .attribution a{
 	color: rgba(218, 218, 218, 0.64);
 }
+.disabled {
+   pointer-events: none;
+   cursor: default;
+}
